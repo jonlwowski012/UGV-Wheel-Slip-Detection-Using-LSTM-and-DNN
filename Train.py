@@ -18,7 +18,7 @@ batch_size = 10
 data_dim = 4
 timesteps = 50
 num_classes = 1
-
+	
 # Read Dataset
 data = pd.read_csv('dataset/fault_dataset.csv')
 
@@ -27,6 +27,10 @@ y = data['labels']
 
 print X.shape
 print y.shape
+
+
+
+
 
 # Create LSTM
 # expected input data shape: (batch_size, timesteps, data_dim)
@@ -41,6 +45,4 @@ model.compile(loss='categorical_crossentropy',
               optimizer='rmsprop',
               metrics=['accuracy'])
 
-#model.fit(x_train, y_train,
-#          batch_size=64, epochs=5,
-#          validation_data=(x_val, y_val))
+model.fit(X,y, batch_size=batch_size, epochs=epochs, validation_split= .3)
