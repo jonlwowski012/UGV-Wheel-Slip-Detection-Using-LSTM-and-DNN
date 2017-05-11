@@ -1,0 +1,2 @@
+%time,field.doubles0.name,field.doubles0.value,field.doubles1.name,field.doubles1.value,field.doubles2.name,field.doubles2.value,field.doubles3.name,field.doubles3.value,field.doubles4.name,field.doubles4.value,field.groups0.name,field.groups0.state,field.groups0.id,field.groups0.parent
+1494527466455540282,speed_lim_v,0.8,speed_lim_w,5.4,accel_lim_v,1.0,accel_lim_w,7.0,decel_factor,1.0,Default,1,0,0

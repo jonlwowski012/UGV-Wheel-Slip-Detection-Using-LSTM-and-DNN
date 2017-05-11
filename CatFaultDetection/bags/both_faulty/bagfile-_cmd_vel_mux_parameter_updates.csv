@@ -1,0 +1,2 @@
+%time,field.strs0.name,field.strs0.value,field.groups0.name,field.groups0.state,field.groups0.id,field.groups0.parent
+1494527312573390887,yaml_cfg_file,/opt/ros/indigo/share/kobuki_keyop/param/keyop_mux.yaml,Default,1,0,0
